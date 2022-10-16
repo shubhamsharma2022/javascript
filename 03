@@ -1,0 +1,20 @@
+console.log("Hello, World!");
+let i = 1;
+let j = 0;
+let k = 1;
+let string = "" ;
+
+for (i = 1 ; i <= 5 ; i++) {
+
+     for (j = 0 ; j < 5-i ; j++) {
+
+         string += " ";
+     }
+     
+     for (k = 1; k <= i ; k++) {
+         
+         string += "*"
+     }
+    string += "\n";
+}
+console.log(string);
